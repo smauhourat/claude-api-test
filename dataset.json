@@ -1,11 +1,17 @@
 [
   {
-    "task": "Write a Python function that extracts the AWS region from an S3 bucket URL in the format 's3://bucket-name.region.amazonaws.com/key'. Return the region name."
+    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events, with environment variables for the target bucket name and log level",
+    "format": "json",
+    "solution_criteria": "Must include valid JSON structure with Lambda runtime configuration, S3 event source mapping, and environment variables section with at least bucket name and log level keys"
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to all objects in an S3 bucket named 'my-data-bucket'."
+    "task": "Write a Python function that takes an AWS CloudWatch log message and extracts the timestamp, log level, and message content using regex pattern matching",
+    "format": "python",
+    "solution_criteria": "Function should accept a log string and return a dictionary with 'timestamp', 'log_level', and 'message' keys; must handle standard CloudWatch format (e.g., '[ERROR] 2024-01-15T10:30:45Z Message text')"
   },
   {
-    "task": "Write a regular expression that matches valid AWS EC2 instance IDs, which follow the pattern 'i-' followed by 17 hexadecimal characters."
+    "task": "Create a regular expression that validates AWS IAM role ARN format (arn:aws:iam::account-id:role/role-name)",
+    "format": "regex",
+    "solution_criteria": "Regex must match valid IAM role ARNs, accept 12-digit account IDs, allow alphanumeric characters, hyphens and underscores in role names, and reject invalid formats"
   }
 ]
