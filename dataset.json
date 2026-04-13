@@ -1,49 +1,50 @@
 [
   {
     "prompt_inputs": {
-      "height": "178 cm",
-      "weight": "70 kg",
-      "goal": "Maintain weight while maximizing performance and managing sodium intake for hydration control",
-      "restrictions": "No dairy, gluten-free"
+      "height": "178",
+      "weight": "85",
+      "goal": "Muscle recovery and strength gains from weightlifting training",
+      "restrictions": "None"
     },
     "solution_criteria": [
-      "Meal plan totals approximately 2,400-2,600 calories appropriate for a 70kg athlete",
-      "Includes 4-5 meals/snacks distributed throughout the day with controlled sodium levels",
-      "Specifies hydration strategy with fluid intake recommendations",
-      "All meals are gluten-free and dairy-free, with no restricted ingredients"
+      "Meal plan covers all meals for one full day",
+      "Protein is distributed across at least 4 meals/snacks with minimum 30g per serving",
+      "Total daily protein meets or exceeds 1.6g per kg of body weight (136g)",
+      "Includes post-workout recovery nutrition with carbohydrates and protein"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete.",
-    "scenario": "Testing with an athlete in a weight-sensitive sport (wrestler) requiring a calorie-controlled meal plan with specific sodium and hydration considerations"
+    "scenario": "Testing with a strength-based athlete (weightlifter) with specific protein requirements and muscle recovery needs, verifying the plan includes adequate protein distribution across meals and recovery nutrition"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "Early morning swim training (5:00 AM start) with energy for 90-minute high-intensity session",
+      "restrictions": "Lactose intolerant, no tree nuts"
+    },
+    "solution_criteria": [
+      "Includes a pre-dawn meal (before 5:00 AM) that is easily digestible and won't cause stomach discomfort during swimming",
+      "Provides adequate hydration strategy throughout the day with specific fluid recommendations",
+      "All meals and snacks comply with stated dietary restrictions",
+      "Plan is compact and practical for a single day with realistic preparation time constraints"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a sport-specific constraint scenario (swimmer with early morning training) requiring pre-dawn meal options and hydration focus, ensuring practicality for unusual training schedules"
   },
   {
     "prompt_inputs": {
       "height": "180",
-      "weight": "75",
-      "goal": "Marathon training with high carbohydrate loading (60% carbs, 20% protein, 20% fat) and 3000+ calories for endurance performance",
-      "restrictions": "Vegetarian, no nuts"
+      "weight": "70",
+      "goal": "Marathon training with carbohydrate loading for high-endurance performance",
+      "restrictions": "None"
     },
     "solution_criteria": [
-      "Meal plan contains exactly 3 meals and snacks totaling 3000+ calories",
-      "Macronutrient distribution approximates 60% carbs, 20% protein, 20% fat",
-      "All meals are vegetarian and nut-free",
-      "Plan is presented in compact, concise format suitable for a single day"
+      "Meal plan contains 4-5 meals/snacks distributed throughout the day with timing around training",
+      "Prioritizes energy-dense, carbohydrate-rich foods (pasta, rice, oats, bread) comprising at least 60% of calories",
+      "Includes protein sources for muscle recovery and hydration guidance",
+      "Estimated daily caloric intake aligns with marathon runner requirements (3000-3500 calories)"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete.",
-    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, with specific macronutrient ratio preferences"
-  },
-  {
-    "prompt_inputs": {
-      "height": "178",
-      "weight": "82",
-      "goal": "Strength and power development for weightlifting competition",
-      "restrictions": "Vegetarian (no meat, poultry, or fish)"
-    },
-    "solution_criteria": [
-      "Meal plan covers all meals for one full day with minimal prep time (quick assembly or no-cook options prioritized)",
-      "Each meal provides substantial protein from vegetarian sources to support muscle recovery and strength goals",
-      "Plan is compact and concise, formatted for easy reference"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete.",
-    "scenario": "Testing with a strength/power athlete (weightlifter) who has dietary restrictions (vegetarian) and needs protein-focused meals with minimal prep time"
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high calorie intake and carbohydrate loading, ensuring the meal plan prioritizes energy-dense foods and timing around training"
   }
 ]
